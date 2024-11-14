@@ -1,6 +1,6 @@
-Check out the repo [HERE](https://github.com/clintmonroe00/animalshelter)!
-
 # CS-499 Computer Science Capstone
+
+### Check out the repo [HERE](https://github.com/clintmonroe00/animalshelter)!
 
 Targeted enhancements for capstone project:
 
