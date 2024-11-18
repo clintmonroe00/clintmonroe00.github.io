@@ -1,5 +1,7 @@
 # CS-499 Computer Science Capstone
 
+### See the original project in my [CODE REVIEW](https://youtu.be/0A0FpX9e3Pc)!
+
 ### Check out the repo [HERE](https://github.com/clintmonroe00/capstone-project)!
 
 Targeted enhancements for capstone project:
