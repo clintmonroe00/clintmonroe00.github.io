@@ -4,6 +4,8 @@
 
 ### Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-project)!
 
+### The front end of the web app is now [LIVE](https://clintmonroe00.github.io/login)! The back end is not quite ready, stay tuned for more updates!
+
 Targeted enhancements for capstone project:
 
 ### Software Design and Engineering
