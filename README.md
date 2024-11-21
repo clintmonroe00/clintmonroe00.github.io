@@ -2,7 +2,7 @@
 
 ### See the original project in my [CODE REVIEW](https://youtu.be/sgI5B061QTc) or view the files [HERE](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
 
-### Check out the current repo [HERE]([https://github.com/clintmonroe00/capstone-project](https://github.com/clintmonroe00/capstone-project/tree/develop))!
+### Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-project/tree/develop)!
 
 ### The front end of the web app is now [LIVE](https://clintmonroe00.github.io/login)! The back end is not quite ready, stay tuned for more updates!
 
