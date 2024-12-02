@@ -1,6 +1,14 @@
+# Technical Artifacts
+
 See the original project in my [CODE REVIEW](https://youtu.be/sgI5B061QTc) or view the files [HERE](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
 
 Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-project/tree/develop)!
+
+# Narratives
+
+- Enhancement One: Software Design and Engineering
+- Enhancement Two: Algorithms and Data Structure
+- Enhancement Three: Databases
 
 # Targeted enhancements for capstone project:
 
