@@ -1,6 +1,6 @@
 # Technical Artifacts
 
-The Current project repository is available [here]([...](https://github.com/clintmonroe00/capstone-project/tree/develop)).
+The current project repository is available [here](https://github.com/clintmonroe00/capstone-project/tree/develop).
 
 See an evaluation of the original project in my [code review](https://youtu.be/sgI5B061QTc) below or view the files [here](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
 
