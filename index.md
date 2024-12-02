@@ -11,7 +11,7 @@ Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-proj
 - Rapid Prototyping: Using FastAPI and React facilitates quick MVP iterations, enabling faster adjustments based on user feedback. React’s reusable components and FastAPI’s automatic OpenAPI documentation streamline development and debugging.
 - Enhanced User Experience: A React-based UI supports a more responsive and interactive experience, with options for advanced data visualization through libraries like D3.js or Plotly. Incorporating interactive map components, modal pop-ups, and custom filters will further engage users.
 
-<iframe src="document.pdf" width="100%" height="600px"></iframe>
+<iframe src="pdfs/Software Design and Engineering.pdf" width="100%" height="600px"></iframe>
 
 ### Enhancement Two: Algorithms and Data Structure
 - Optimized Data Structures: Switching from dictionaries to data classes with tuples or arrays will optimize memory usage and speed up processing. Data classes provide type annotations and reduce boilerplate code, improving readability and maintainability.
