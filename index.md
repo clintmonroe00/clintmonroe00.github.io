@@ -2,6 +2,8 @@
 
 See the original project in my [CODE REVIEW](https://youtu.be/sgI5B061QTc) or view the files [HERE](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
 
+{% include youtube.html id="sgI5B061QTc" %}
+
 Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-project/tree/develop)!
 
 # Narratives
