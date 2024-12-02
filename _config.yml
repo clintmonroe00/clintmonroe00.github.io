@@ -1,13 +1,5 @@
-# title: Clint Monroe
-# logo: /assets/img/headshot.jpg
-# description: text below image
-# show_downloads: true
-# theme: jekyll-theme-minimal
 title: CS-499 Computer Science Capstone
 # description: [A short description of your site's purpose]
-
-includes:
-  - sidebar.html
 
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
