@@ -1,10 +1,10 @@
 # CS-499 Computer Science Capstone
 
-### See the original project in my [CODE REVIEW](https://youtu.be/sgI5B061QTc) or view the files [HERE](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
+See the original project in my [CODE REVIEW](https://youtu.be/sgI5B061QTc) or view the files [HERE](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
 
-### Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-project/tree/develop)!
+Check out the current repo [HERE](https://github.com/clintmonroe00/capstone-project/tree/develop)!
 
-Targeted enhancements for capstone project:
+# Targeted enhancements for capstone project:
 
 ### Software Design and Engineering
 - Frameworks: Transitioning to React for the frontend and FastAPI for the backend will enhance UI responsiveness, modularity, and scalability. React’s component-based structure allows for quicker, cleaner UI updates, while FastAPI’s asynchronous capabilities efficiently handle concurrent requests, reducing response times and boosting performance.
