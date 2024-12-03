@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Technical Artifacts
+title: ePortfolio
 ---
 
 <div class="container mt-3 mb-3">
