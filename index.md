@@ -13,6 +13,26 @@ See an evaluation of the original project in my [code review](https://youtu.be/s
 
 ## Narratives
 
-* [Enhancement One](enhancements/software-design-and-engineering)
-* [Enhancement Two](enhancements/algorithms-and-data-structures)
-* [Enhancement Three](enhancements/databases)
+<ul class="nav nav-tabs mt-3">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#enhancement1">Enhancement One</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#enhancement2">Enhancement Two</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#enhancement3">Enhancement Three</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div id="enhancement1" class="container tab-pane active"><br>
+    {% include enhancements/software-design-and-engineering.md %}
+  </div>
+  <div id="enhancement2" class="container tab-pane fade"><br>
+    {% include enhancements/algorithms-and-data-structures.md %}
+  </div>
+  <div id="enhancement3" class="container tab-pane fade"><br>
+    {% include enhancements/databases.md %}
+  </div>
+</div>
