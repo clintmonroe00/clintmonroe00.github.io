@@ -15,12 +15,12 @@
     {% include youtube.html id="sgI5B061QTc" %}
   </div>
   <div class="mt-3">
-    <h2>Narratives</h2>
-    <ul class="nav nav-tabs mt-3">
+    <ul class="nav nav-tabs">
       {% for enhancement in site.data.enhancements %}
         <li class="nav-item">
           <a class="nav-link{% if forloop.first %} active{% endif %}" data-toggle="tab" href="#{{ enhancement.id }}">{{ enhancement.title }}</a>
-        </li> {% endfor %}
+        </li>
+      {% endfor %}
     </ul>
     <div class="tab-content">
       {% for enhancement in site.data.enhancements %}
