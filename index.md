@@ -13,26 +13,34 @@ See an evaluation of the original project in my [code review](https://youtu.be/s
 
 ## Narratives
 
-<ul class="nav nav-tabs mt-3">
-  <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#enhancement1">Enhancement One</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#enhancement2">Enhancement Two</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#enhancement3">Enhancement Three</a>
-  </li>
-</ul>
+<div>
+  <!-- Tab Navigation -->
+  <ul class="nav nav-tabs mt-3">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#enhancement1">Enhancement One</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#enhancement2">Enhancement Two</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#enhancement3">Enhancement Three</a>
+    </li>
+  </ul>
 
-<div class="tab-content">
-  <div id="enhancement1" class="container tab-pane active"><br>
-    {% include enhancements/software-design-and-engineering.md %}
-  </div>
-  <div id="enhancement2" class="container tab-pane fade"><br>
-    {% include enhancements/algorithms-and-data-structures.md %}
-  </div>
-  <div id="enhancement3" class="container tab-pane fade"><br>
-    {% include enhancements/databases.md %}
+  <!-- Tab Content -->
+  <div class="tab-content">
+    <div id="enhancement1" class="container tab-pane active"><br>
+      {% include enhancements/software-design-and-engineering.md %}
+    </div>
+    <div id="enhancement2" class="container tab-pane fade"><br>
+      {% include enhancements/algorithms-and-data-structures.md %}
+    </div>
+    <div id="enhancement3" class="container tab-pane fade"><br>
+      {% include enhancements/databases.md %}
+    </div>
   </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
