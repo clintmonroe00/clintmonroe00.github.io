@@ -14,7 +14,7 @@
     <p>See an evaluation of the original project in my <a href="https://youtu.be/sgI5B061QTc">code review</a> below or view the files <a href="https://github.com/clintmonroe00/CS-340-Client-Server-Development">here</a>.</p>
     {% include youtube.html id="sgI5B061QTc" %}
   </div>
-  <div class="container mt-3">
+  <div class="mt-3">
     <h2>Narratives</h2>
     <ul class="nav nav-tabs mt-3">
       <li class="nav-item">
