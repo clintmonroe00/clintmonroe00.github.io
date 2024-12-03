@@ -29,15 +29,22 @@
     </ul>
     <div class="tab-content">
       <div id="enhancement1" class="container tab-pane active"><br>
-        <h3>Enhancement One: Software Design and Engineering</h3>
-        <p>Details about Enhancement One...</p>
+        <h3>Software Design and Engineering</h3>
+        <p>The repository for this enhancement is available <a href="https://github.com/clintmonroe00/capstone-project/tree/sprint-one">here</a>.</p>
+        <h4>Targeted Enhancements:</h4>
+        <ul>
+          <li><strong>Frameworks:</strong> Transitioning to React for the frontend and FastAPI for the backend will enhance UI responsiveness, modularity, and scalability. React’s component-based structure allows for quicker, cleaner UI updates, while FastAPI’s asynchronous capabilities efficiently handle concurrent requests, reducing response times and boosting performance.</li>
+          <li><strong>Rapid Prototyping:</strong> Using FastAPI and React facilitates quick MVP iterations, enabling faster adjustments based on user feedback. React’s reusable components and FastAPI’s automatic OpenAPI documentation streamline development and debugging.</li>
+          <li><strong>Enhanced User Experience:</strong> A React-based UI supports a more responsive and interactive experience, with options for advanced data visualization through libraries like D3.js or Plotly. Incorporating interactive map components, modal pop-ups, and custom filters will further engage users.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       <div id="enhancement2" class="container tab-pane fade"><br>
-        <h3>Enhancement Two: Algorithms and Data Structures</h3>
+        <h3>Algorithms and Data Structures</h3>
         <p>Details about Enhancement Two...</p>
       </div>
       <div id="enhancement3" class="container tab-pane fade"><br>
-        <h3>Enhancement Three: Databases</h3>
+        <h3>Databases</h3>
         <p>Details about Enhancement Three...</p>
       </div>
     </div>
