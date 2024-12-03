@@ -17,9 +17,9 @@
   <div class="mt-3">
     <ul class="nav nav-tabs">
       {% for enhancement in site.data.enhancements %}
-        <li class="nav-item">
-          <a class="nav-link{% if forloop.first %} active{% endif %}" data-toggle="tab" href="#{{ enhancement.id }}">{{ enhancement.title }}</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link{% if forloop.first %} active{% endif %}" data-toggle="tab" href="#{{ enhancement.id }}">{{ enhancement.title }}</a>
+      </li>
       {% endfor %}
     </ul>
     <div class="tab-content">
