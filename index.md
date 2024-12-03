@@ -3,15 +3,10 @@ layout: default
 title: Technical Artifacts
 ---
 
-# Technical Artifacts
+<h1>Technical Artifacts</h1>
 
-The current project repository is available [here](https://github.com/clintmonroe00/capstone-project/tree/develop).
-
-See an evaluation of the original project in my [code review](https://youtu.be/sgI5B061QTc) or view the files [here](https://github.com/clintmonroe00/CS-340-Client-Server-Development).
-
-{% include youtube.html id="sgI5B061QTc" %}
-
-## Narratives
+<p>The current project repository is available <a href="https://github.com/clintmonroe00/capstone-project/tree/develop">here</a>.</p>
+<p>See an evaluation of the original project in my <a href="https://youtu.be/sgI5B061QTc">code review</a> or view the files <a href="https://github.com/clintmonroe00/CS-340-Client-Server-Development">here</a>.</p>
 
 <div>
   <!-- Tab Navigation -->
@@ -40,7 +35,3 @@ See an evaluation of the original project in my [code review](https://youtu.be/s
     </div>
   </div>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
