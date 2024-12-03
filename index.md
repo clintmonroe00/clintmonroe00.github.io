@@ -11,7 +11,7 @@
   <h2>Technical Artifacts</h2>
   <p>The current project repository is available <a href="https://github.com/clintmonroe00/capstone-project/tree/develop">here</a>.</p>
   <p>See an evaluation of the original project in my <a href="https://youtu.be/sgI5B061QTc">code review</a> below or view the files <a href="https://github.com/clintmonroe00/CS-340-Client-Server-Development">here</a>.</p>
-  {% include youtube.html id="sgI5B061QTc"
+  {% include youtube.html id="sgI5B061QTc" %}
   
   <ul class="nav nav-tabs">
     <li class="nav-item">
