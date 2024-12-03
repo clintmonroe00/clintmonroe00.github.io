@@ -1,12 +1,8 @@
-```html
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Technical Artifacts</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+---
+layout: default
+title: Technical Artifacts
+---
+
 <div class="container mt-3">
   <div>
     <h2>Self-Assessment</h2>
@@ -38,60 +34,19 @@
         <p>The written narrative for this enhancement is available <a href="https://github.com/clintmonroe00/clintmonroe00.github.io/blob/main/Monroe%2C%20Clint%203-2%20Milestone%20Two.docx">here</a>.</p>
         <h4>Targeted Enhancements:</h4>
         <ul>
-          <li><strong>Frameworks:</strong> Transitioning to React for the frontend and FastAPI for the backend will enhance UI responsiveness, modularity, and scalability. React’s component-based structure allows for quicker, cleaner UI updates, while FastAPI’s asynchronous capabilities efficiently handle concurrent requests, reducing response times and boosting performance.</li>
-          <li><strong>Rapid Prototyping:</strong> Using FastAPI and React facilitates quick MVP iterations, enabling faster adjustments based on user feedback. React’s reusable components and FastAPI’s automatic OpenAPI documentation streamline development and debugging.</li>
-          <li><strong>Enhanced User Experience:</strong> A React-based UI supports a more responsive and interactive experience, with options for advanced data visualization through libraries like D3.js or Plotly. Incorporating interactive map components, modal pop-ups, and custom filters will further engage users.</li>
+          <li><strong>Frameworks:</strong> Transitioning to React for the frontend and FastAPI for the backend...</li>
+          <li><strong>Rapid Prototyping:</strong> Using FastAPI and React facilitates quick MVP iterations...</li>
+          <li><strong>Enhanced User Experience:</strong> A React-based UI supports a more responsive and interactive experience...</li>
         </ul>
         <h4>Sprint Planning:</h4>
         <ul>
-          <li><strong>Sprint 1: Project Initialization & Environment Setup -</strong> This sprint focuses on setting up the project plan and environment, with basic configurations in React, FastAPI, and SQLAlchemy.</li>
-          <li><strong>Sprint 2: Core Feature Development -</strong> Emphasizes frontend interactivity and backend efficiency through asynchronous API endpoints and interactive data features.</li>
-          <li><strong>Sprint 3: Data Optimization & Security -</strong> Optimizes data structures and queries within SQLAlchemy to enhance performance and security.</li>
-          <li><strong>Sprint 4: Backlog & Polish -</strong> Reserved for completing remaining items, enhancing the UI/UX, and final testing to ensure a seamless, reliable user experience.</li>
+          <li><strong>Sprint 1:</strong> Project Initialization & Environment Setup</li>
+          <li><strong>Sprint 2:</strong> Core Feature Development</li>
+          <li><strong>Sprint 3:</strong> Data Optimization & Security</li>
+          <li><strong>Sprint 4:</strong> Backlog & Polish</li>
         </ul>
       </div>
-      <div id="enhancement2" class="container tab-pane fade"><br>
-        <h3>Algorithms and Data Structures</h3>
-        <p>The repository for this enhancement is available <a href="https://github.com/clintmonroe00/capstone-project/tree/sprint-two">here</a>.</p>
-        <p>The written narrative for this enhancement is available <a href="https://github.com/clintmonroe00/clintmonroe00.github.io/blob/main/Monroe%2C%20Clint%204-2%20Milestone%20Three.docx">here</a>.</p>
-        <h4>Targeted Enhancements:</h4>
-        <ul>
-          <li><strong>Optimized Data Classes and Structures:</strong> Transitioning from dictionaries to data classes with tuples or arrays will optimize memory usage and processing speed, as these structures are generally more performant in Python. Data classes offer type annotations and reduce boilerplate code, promoting better code readability and maintainability.</li>
-          <li><strong>Enhanced Algorithm Efficiency:</strong> By moving sorting and filtering operations to the database and retrieving only necessary data, you reduce data transfer and enhance response times. Leveraging database-level operations improves overall algorithmic efficiency, as the database can use indexing and optimized query execution plans.</li>
-          <li><strong>Complex Queries and Efficient Filtering:</strong> Data structures such as arrays or lists will simplify handling ordered data, improving performance for tasks that involve sorting or searching, especially for large datasets.</li>
-        </ul>
-        <h4>Sprint Planning:</h4>
-        <ul>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
-        </ul>
-      </div>
-      <div id="enhancement3" class="container tab-pane fade"><br>
-        <h3>Databases</h3>
-        <p>The repository for this enhancement is available <a href="https://github.com/clintmonroe00/capstone-project/tree/sprint-three">here</a>.</p>
-        <p>The written narrative for this enhancement is available <a href="https://github.com/clintmonroe00/clintmonroe00.github.io/blob/main/Monroe%2C%20Clint%205-2%20Milestone%20Four.docx">here</a>.</p>
-        <h4>Targeted Enhancements:</h4>
-        <ul>
-          <li><strong>ORM (Object-Relational Mapping):</strong> Implementing an ORM like SQLAlchemy or Tortoise ORM (for asynchronous handling with FastAPI) enables you to work with a unified data model, streamlining database interactions and eliminating vendor-specific SQL differences. This also allows for faster prototyping by eliminating repetitive SQL code, which conforms to DRY (Don't Repeat Yourself) principles.</li>
-          <li><strong>Centralized Data Model:</strong> With the ORM, the data model is defined in one location, reducing the potential for inconsistencies. Changes in data models are automatically synchronized with the database, making schema migrations easier.</li>
-          <li><strong>Improved Query Efficiency:</strong> Moving complex filtering and sorting to the database level leverages indexing and optimized database operations, reducing memory overhead and minimizing processing time on the server side.</li>
-          <li><strong>ORM-Driven Security and Validation:</strong> ORMs often have built-in security features like SQL injection protection and automatic query validation, adding an extra layer of security with minimal additional code.</li>
-        </ul>
-        <h4>Sprint Planning:</h4>
-        <ul>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
-        </ul>
+      <!-- Additional enhancements -->
     </div>
   </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
-```
