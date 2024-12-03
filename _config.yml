@@ -1,5 +1,8 @@
 title: CS-499 Computer Science Capstone
-# description: [A short description of your site's purpose]
+# description: [A short description of the site's purpose]
+
+url: https://clintmonroe00.github.io
+baseurl: ""
 
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
