@@ -6,9 +6,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-defaults:
-  - scope:
-      path: ""
-      type: "enhancements"
-    values:
-      layout: default
+# Add custom Bootstrap
+include:
+  - assets/css/bootstrap.min.css
