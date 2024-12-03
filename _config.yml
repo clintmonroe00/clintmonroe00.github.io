@@ -1,11 +1,7 @@
+_config.yml
 title: CS-499 Computer Science Capstone
-description: My capstone project portfolio, showcasing technical artifacts and enhancements.
+# description: [A short description of your site's purpose]
+
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Add custom Bootstrap
-include:
-  - assets/css/bootstrap.min.css
+- jekyll-remote-theme
