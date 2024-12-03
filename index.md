@@ -15,17 +15,38 @@
     {% include youtube.html id="sgI5B061QTc" %}
   </div>
   <div class="mt-3">
-    <ul class="nav nav-tabs">
-      {% for enhancement in site.data.enhancements %}
+    <h2>Narratives</h2>
+    <ul class="nav nav-tabs mt-3">
       <li class="nav-item">
-        <a class="nav-link{% if forloop.first %} active{% endif %}" data-toggle="tab" href="#{{ enhancement.id }}">{{ enhancement.title }}</a>
+        <a class="nav-link active" data-toggle="tab" href="#enhancement1">Enhancement One</a>
       </li>
-      {% endfor %}
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#enhancement2">Enhancement Two</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#enhancement3">Enhancement Three</a>
+      </li>
     </ul>
     <div class="tab-content">
-      {% for enhancement in site.data.enhancements %}
-        {% include enhancement.html enhancement=enhancement %}
-      {% endfor %}
+      <div id="enhancement1" class="container tab-pane active"><br>
+        <h3>Software Design and Engineering</h3>
+        <p>The repository for this enhancement is available <a href="https://github.com/clintmonroe00/capstone-project/tree/sprint-one">here</a>.</p>
+        <h4>Targeted Enhancements:</h4>
+        <ul>
+          <li><strong>Frameworks:</strong> Transitioning to React for the frontend and FastAPI for the backend will enhance UI responsiveness, modularity, and scalability. React’s component-based structure allows for quicker, cleaner UI updates, while FastAPI’s asynchronous capabilities efficiently handle concurrent requests, reducing response times and boosting performance.</li>
+          <li><strong>Rapid Prototyping:</strong> Using FastAPI and React facilitates quick MVP iterations, enabling faster adjustments based on user feedback. React’s reusable components and FastAPI’s automatic OpenAPI documentation streamline development and debugging.</li>
+          <li><strong>Enhanced User Experience:</strong> A React-based UI supports a more responsive and interactive experience, with options for advanced data visualization through libraries like D3.js or Plotly. Incorporating interactive map components, modal pop-ups, and custom filters will further engage users.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div id="enhancement2" class="container tab-pane fade"><br>
+        <h3>Algorithms and Data Structures</h3>
+        <p>Details about Enhancement Two...</p>
+      </div>
+      <div id="enhancement3" class="container tab-pane fade"><br>
+        <h3>Databases</h3>
+        <p>Details about Enhancement Three...</p>
+      </div>
     </div>
   </div>
 </div>
