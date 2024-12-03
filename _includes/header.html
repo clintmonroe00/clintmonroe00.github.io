@@ -1,7 +1,31 @@
 <header>
+  <style>
+    .social-links a {
+      margin-left: 10px;
+      text-decoration: none;
+    }
+
+    .social-links .icon {
+      width: 30px;
+      height: 30px;
+    }
+
+    .social-links a:hover .icon {
+      opacity: 0.8;
+      transform: scale(1.1);
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .tagline {
+      font-size: 14px;
+      color: gray;
+      margin-top: -10px;
+    }
+  </style>
   <div class="navbar navbar-light bg-light justify-content-between">
     <a class="navbar-brand" href="{{ site.baseurl }}/">
       <h1>{{ site.title }}</h1>
+      <p class="tagline">Showcasing my journey in Computer Science</p>
     </a>
     <div class="social-links">
       <!-- LinkedIn -->
