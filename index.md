@@ -3,8 +3,8 @@ layout: default
 title: Technical Artifacts
 ---
 
-<div class="container mt-3">
-  <div>
+<div class="container mt-3 mb-3">
+  <div class="mt-3">
     <h2>Self-Assessment</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
   </div>
@@ -38,13 +38,6 @@ title: Technical Artifacts
           <li><strong>Rapid Prototyping:</strong> Using FastAPI and React facilitates quick MVP iterations, enabling faster adjustments based on user feedback. React’s reusable components and FastAPI’s automatic OpenAPI documentation streamline development and debugging.</li>
           <li><strong>Enhanced User Experience:</strong> A React-based UI supports a more responsive and interactive experience, with options for advanced data visualization through libraries like D3.js or Plotly. Incorporating interactive map components, modal pop-ups, and custom filters will further engage users.</li>
         </ul>
-        <h4>Sprint Planning:</h4>
-        <ul>
-          <li><strong>Sprint 1: Project Initialization & Environment Setup -</strong> This sprint focuses on setting up the project plan and environment, with basic configurations in React, FastAPI, and SQLAlchemy.</li>
-          <li><strong>Sprint 2: Core Feature Development -</strong> Emphasizes frontend interactivity and backend efficiency through asynchronous API endpoints and interactive data features.</li>
-          <li><strong>Sprint 3: Data Optimization & Security -</strong> Optimizes data structures and queries within SQLAlchemy to enhance performance and security.</li>
-          <li><strong>Sprint 4: Backlog & Polish -</strong> Reserved for completing remaining items, enhancing the UI/UX, and final testing to ensure a seamless, reliable user experience.</li>
-        </ul>
       </div>
       <div id="enhancement2" class="container tab-pane fade"><br>
         <h3>Algorithms and Data Structures</h3>
@@ -55,13 +48,6 @@ title: Technical Artifacts
           <li><strong>Optimized Data Classes and Structures:</strong> Transitioning from dictionaries to data classes with tuples or arrays will optimize memory usage and processing speed, as these structures are generally more performant in Python. Data classes offer type annotations and reduce boilerplate code, promoting better code readability and maintainability.</li>
           <li><strong>Enhanced Algorithm Efficiency:</strong> By moving sorting and filtering operations to the database and retrieving only necessary data, you reduce data transfer and enhance response times. Leveraging database-level operations improves overall algorithmic efficiency, as the database can use indexing and optimized query execution plans.</li>
           <li><strong>Complex Queries and Efficient Filtering:</strong> Data structures such as arrays or lists will simplify handling ordered data, improving performance for tasks that involve sorting or searching, especially for large datasets.</li>
-        </ul>
-        <h4>Sprint Planning:</h4>
-        <ul>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
         </ul>
       </div>
       <div id="enhancement3" class="container tab-pane fade"><br>
@@ -74,13 +60,6 @@ title: Technical Artifacts
           <li><strong>Centralized Data Model:</strong> With the ORM, the data model is defined in one location, reducing the potential for inconsistencies. Changes in data models are automatically synchronized with the database, making schema migrations easier.</li>
           <li><strong>Improved Query Efficiency:</strong> Moving complex filtering and sorting to the database level leverages indexing and optimized database operations, reducing memory overhead and minimizing processing time on the server side.</li>
           <li><strong>ORM-Driven Security and Validation:</strong> ORMs often have built-in security features like SQL injection protection and automatic query validation, adding an extra layer of security with minimal additional code.</li>
-        </ul>
-        <h4>Sprint Planning:</h4>
-        <ul>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
-          <li>...</li>
         </ul>
     </div>
   </div>
